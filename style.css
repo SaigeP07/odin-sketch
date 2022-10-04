@@ -125,3 +125,15 @@ footer {
 .cell {
     border: 1px solid black;
 }
+
+.empty-grid {
+    width: 575px;
+    height: 575px;
+    border: solid 5px rgb(255, 255, 255);
+    box-shadow: 7px 7px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    display: inline-grid;
+    background-color: rgb(255, 255, 255);
+}

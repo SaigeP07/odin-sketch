@@ -1,13 +1,24 @@
 
 let reset = document.querySelector('.reset-btn');
+let grid = document.querySelector('.grid');
 
 reset.addEventListener('click', function() {
-    window.location.reload(true);
+    let squares = grid.querySelectorAll('div');
+    squares.forEach((div) => div.remove());
+    createGrid(sliderValue.value);
+})
+
+let sliderValue = document.querySelector('#slider');
+let sliderText  = document.querySelector('.slider-value');
+
+sliderValue.addEventListener('input', function(){
+    sliderText.textContent = this.value;
+    size = this.value;
+    createGrid(size);
 })
 
 function createGrid(size) {
 
-    let grid = document.querySelector('.grid');
     grid.style.gridTemplateColumns = `repeat(${size}, 2fr)` ;
     grid.style.gridTemplateRows = `repeat(${size}, 2fr)` ;
     let squares = grid.querySelectorAll('div');
@@ -25,4 +36,4 @@ function createGrid(size) {
     }
 };
 
-createGrid(24);
+createGrid(16);
