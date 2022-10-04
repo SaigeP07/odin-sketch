@@ -61,3 +61,33 @@ button {
     flex-direction: row;
     gap: 10px;
 }
+
+#slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background: black;
+    border-radius: 50px;
+    outline: none;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 70%;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: white;
+    cursor: pointer;
+}
+
+.slider-pick > p {
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(0, 0, 0);
+    text-shadow: 1.3px 1.3px rgb(255, 255, 255);
+}
