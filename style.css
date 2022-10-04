@@ -31,3 +31,10 @@ button {
 .rgb-btn {
     background: linear-gradient(to right, #ff8daf, #6aff5d, #7174ff)
 }
+
+.color-pick {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+}
