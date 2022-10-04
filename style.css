@@ -34,6 +34,11 @@ button {
     font-family: 'VT323', monospace;
 }
 
+button:hover {
+    scale: 90%;
+    transition: 60ms;
+}
+
 .rgb-btn {
     background: linear-gradient(to right, #ff8daf, #6aff5d, #7174ff)
 }
