@@ -1,6 +1,12 @@
 
 let reset = document.querySelector('.reset-btn');
 let grid = document.querySelector('.grid');
+let color = 'black'
+
+let colorChoice = document.querySelector('#color');
+colorChoice.addEventListener('input', function() {
+    color = this.value;
+});
 
 reset.addEventListener('click', function() {
     let squares = grid.querySelectorAll('div');
@@ -30,7 +36,7 @@ function createGrid(size) {
         let div = document.createElement('div');
         div.classList.add('cell');
         div.addEventListener('mouseenter', function(event){
-            event.target.style.backgroundColor = 'black';
+            event.target.style.backgroundColor = `${color}`;
         })
         grid.appendChild(div);
     }
