@@ -27,3 +27,7 @@ button {
     box-shadow: 5px 5px;
     outline: none;
 }
+
+.rgb-btn {
+    background: linear-gradient(to right, #ff8daf, #6aff5d, #7174ff)
+}
