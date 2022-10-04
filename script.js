@@ -10,3 +10,9 @@ for(let i = 0; i < 256; i++) {
     })
     grid.appendChild(div);
 };
+
+let reset = document.querySelector('.reset-btn');
+
+reset.addEventListener('click', function() {
+    window.location.reload(true);
+})
