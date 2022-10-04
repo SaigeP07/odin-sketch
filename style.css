@@ -98,3 +98,13 @@ button:hover {
     color: rgb(0, 0, 0);
     text-shadow: 1.3px 1.3px rgb(255, 255, 255);
 }
+
+footer {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 1.5px 1.5px rgb(0, 0, 0);
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: black;
+}
