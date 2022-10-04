@@ -6,3 +6,15 @@ h1 {
     text-align: center;
     font-size: 3.2em;
 }
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 50px;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
