@@ -18,3 +18,12 @@ h1 {
     margin-right: auto;
     
 }
+
+button {
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    box-shadow: 5px 5px;
+    outline: none;
+}
