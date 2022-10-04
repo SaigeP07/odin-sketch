@@ -47,3 +47,9 @@ button {
     box-shadow: 5px 5px;
     outline: none;
 }
+
+.slider-pick {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
