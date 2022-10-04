@@ -38,3 +38,12 @@ button {
     width: 150px;
     align-items: center;
 }
+
+#color {
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    box-shadow: 5px 5px;
+    outline: none;
+}
