@@ -1,7 +1,22 @@
 
 let reset = document.querySelector('.reset-btn');
 let grid = document.querySelector('.grid');
-let color = 'black'
+let color = 'black';
+let rgbBtn = document.querySelector('.rgb-btn');
+
+function getRandomColor() {
+    color = `hsl(${Math.random() * 360}, 100%, 50%)`;
+};
+
+rgbBtn.addEventListener('click', function() {
+    let val = document.getElementById('slider').value;
+    let cell = grid.children;
+    for (let i = 0; i < val*val; i++) {
+        cell[i].addEventListener('mouseover', function(event) {
+            event.target.backgroundColor = getRandomColor();
+        })
+    }
+});
 
 let colorChoice = document.querySelector('#color');
 colorChoice.addEventListener('input', function() {
