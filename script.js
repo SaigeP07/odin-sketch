@@ -26,6 +26,7 @@ colorChoice.addEventListener('input', function() {
 reset.addEventListener('click', function() {
     let squares = grid.querySelectorAll('div');
     squares.forEach((div) => div.remove());
+    color = document.querySelector('#color').value;
     createGrid(sliderValue.value);
 })
 
