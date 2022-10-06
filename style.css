@@ -191,3 +191,13 @@ footer {
     display: inline-grid;
     background-color: rgb(255, 255, 255);
 }
+
+a {
+    color: white;
+}
+
+a:hover {
+    scale: 90%;
+    transition: 60ms;
+    color: black;
+}
