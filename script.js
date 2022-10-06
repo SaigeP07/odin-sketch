@@ -4,16 +4,25 @@ let grid = document.querySelector('.grid');
 let color = 'black';
 let rgbBtn = document.querySelector('.rgb-btn');
 let blackBtn = document.querySelector('.black-btn');
+let isBtnClicked = false;
+
 
 blackBtn.addEventListener('click', function (){
     color = 'black';
+    isBtnClicked = true;
 });
 
 function getRandomColor() {
-    color = `hsl(${Math.random() * 360}, 100%, 50%)`;
+    if (isBtnClicked === false){
+        color = `hsl(${Math.random() * 360}, 100%, 50%)`;
+    } else {
+        return;
+    }
 };
 
+
 rgbBtn.addEventListener('click', function() {
+    isBtnClicked = false;
     let val = document.getElementById('slider').value;
     let cell = grid.children;
     for (let i = 0; i < val*val; i++) {
@@ -25,12 +34,14 @@ rgbBtn.addEventListener('click', function() {
 
 let colorChoice = document.querySelector('#color');
 colorChoice.addEventListener('input', function() {
+    isBtnClicked = true;
     color = this.value;
 });
 
 reset.addEventListener('click', function() {
     let squares = grid.querySelectorAll('div');
     squares.forEach((div) => div.remove());
+    isBtnClicked = false;
     color = document.querySelector('#color').value;
     createGrid(sliderValue.value);
 })
