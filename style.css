@@ -128,7 +128,7 @@ footer {
     width: 575px;
     height: 575px;
     border: solid 5px rgb(255, 255, 255);
-    box-shadow: 7px 7px;
+    box-shadow: 7px 7px 30px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 5px;
