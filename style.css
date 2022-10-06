@@ -161,6 +161,9 @@ footer {
     #color {
         width: 40px;
     }
+    .color-pick {
+        font-size: 15px;
+    }
 
 }
 .cell {
