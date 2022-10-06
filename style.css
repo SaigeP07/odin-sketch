@@ -164,6 +164,16 @@ footer {
     .color-pick {
         font-size: 15px;
     }
+    #slider {
+        height:  20px;
+    }
+    .slider-pick > p {
+        font-size: 15px;
+    }
+    #slider::-webkit-slider-thumb {
+        height: 20px;
+        width: 20px;
+    }
 
 }
 .cell {
