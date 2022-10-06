@@ -69,6 +69,11 @@ button:hover {
     border-radius: 10px;
 }
 
+#color:hover {
+    scale: 90%;
+    transition: 60ms;
+}
+
 .slider-pick {
     display: flex;
     flex-direction: row;
