@@ -142,6 +142,12 @@ footer {
     background-color: rgb(255, 255, 255);
 }
 
+@media only screen and (max-width: 500px) {
+    .grid {
+        width: 400px;
+        height: 400px;
+    }
+}
 .cell {
     border: 1px solid black;
 }
