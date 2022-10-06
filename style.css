@@ -83,13 +83,15 @@ button:hover {
 #slider {
     -webkit-appearance: none;
     appearance: none;
-    background: black;
+    background: rgb(255, 255, 255);
     border-radius: 50px;
     outline: none;
     height: 30px;
     margin-top: auto;
     margin-bottom: auto;
     width: 70%;
+    box-shadow: 1px 2px 5px black;
+    border: 1px solid black;
 }
 
 #slider::-webkit-slider-thumb {
