@@ -176,7 +176,9 @@ footer {
         height: 20px;
         width: 20px;
     }
-
+    .rgb-btn {
+        min-width: 42px;
+    }
 }
 .cell {
     border: 1px solid black;
