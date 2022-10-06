@@ -30,7 +30,7 @@ h1 {
 }
 
 button {
-    width: 100px;
+    width: 120px;
     text-align: center;
     font-size: 30px;
     background-color: white;
@@ -38,6 +38,7 @@ button {
     outline: none;
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
+    border-radius: 100%;
 }
 
 button:hover {
