@@ -34,7 +34,7 @@ button {
     text-align: center;
     font-size: 30px;
     background-color: white;
-    box-shadow: 5px 5px;
+    box-shadow: 4px 4px 8px;
     outline: none;
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
@@ -64,7 +64,7 @@ button:hover {
     width: 80px;
     text-align: center;
     background-color: white;
-    box-shadow: 5px 5px;
+    box-shadow: 4px 4px 8px;
     outline: none;
     border-radius: 10px;
 }
