@@ -3,6 +3,11 @@ let reset = document.querySelector('.reset-btn');
 let grid = document.querySelector('.grid');
 let color = 'black';
 let rgbBtn = document.querySelector('.rgb-btn');
+let blackBtn = document.querySelector('.black-btn');
+
+blackBtn.addEventListener('click', function (){
+    color = 'black';
+});
 
 function getRandomColor() {
     color = `hsl(${Math.random() * 360}, 100%, 50%)`;
