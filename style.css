@@ -56,9 +56,9 @@ button:hover {
     width: 150px;
     align-items: center;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
-    text-shadow:  .5px .5px white;
+    text-shadow:  .5px .5px rgb(0, 0, 0);
     height: 90px;
 
 }
@@ -112,8 +112,8 @@ button:hover {
     font-size: 30px;
     margin-top: auto;
     margin-bottom: auto;
-    color: rgb(0, 0, 0);
-    text-shadow: 1.3px 1.3px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 1.3px 1.3px rgb(0, 0, 0);
     font-weight: bold;
 }
 
@@ -122,9 +122,7 @@ footer {
     font-size: 38px;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    text-shadow: 1.5px 1.5px rgb(0, 0, 0);
-    -webkit-text-stroke-width: .7px;
-    -webkit-text-stroke-color: black;
+    text-shadow: 1px 2px rgb(0, 0, 0);
     font-family: 'Dosis', sans-serif;
 }
 
