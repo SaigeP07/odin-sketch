@@ -21,7 +21,7 @@ h1 {
     justify-content: space-evenly;
     width: 40%;
     height: 55px;
-    gap: 20px;
+    gap: 15px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Dosis', sans-serif;
@@ -50,7 +50,8 @@ button:hover {
 }
 
 .rgb-btn {
-    background: linear-gradient(to right, #ff8daf, #6aff5d, #7174ff)
+    background: linear-gradient(to right, #ff8daf, #6aff5d, #7174ff);
+    min-width: 80px;
 }
 
 .color-pick {
