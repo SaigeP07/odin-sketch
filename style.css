@@ -153,6 +153,11 @@ footer {
     footer {
         font-size: 1.5em;
     }
+    button {
+        font-size: 10px;
+        width: 60px;
+        height: 30px;
+    }
 }
 .cell {
     border: 1px solid black;
