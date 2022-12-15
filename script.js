@@ -4,8 +4,13 @@ let grid = document.querySelector('.grid');
 let color = 'black';
 let rgbBtn = document.querySelector('.rgb-btn');
 let blackBtn = document.querySelector('.black-btn');
+let eraseBtn = document.querySelector('.erase-btn');
 let isBtnClicked = false;
 
+eraseBtn.addEventListener('click', function (){
+    color = 'white';
+    isBtnClicked = true;
+});
 
 blackBtn.addEventListener('click', function (){
     color = 'black';
