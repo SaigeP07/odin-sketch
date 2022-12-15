@@ -3,12 +3,12 @@ let reset = document.querySelector('.reset-btn');
 let grid = document.querySelector('.grid');
 let color = 'black';
 let rgbBtn = document.querySelector('.rgb-btn');
-let blackBtn = document.querySelector('.black-btn');
+let eraseBtn = document.querySelector('.erase-btn');
 let isBtnClicked = false;
 
 
-blackBtn.addEventListener('click', function (){
-    color = 'black';
+eraseBtn.addEventListener('click', function (){
+    color = 'white';
     isBtnClicked = true;
 });
 
