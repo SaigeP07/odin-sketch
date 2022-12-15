@@ -16,17 +16,20 @@
 <body>
     <h1>Etch a Sketch</h1>
     <div class="grid"></div>
+    <div class="slider">
+        <div class="slider-pick">
+            <input type="range" min="8" max="64" value ="16" name="grid-slider" id="slider">
+            <p class="slider-value">16</p>
+        </div>
+    </div>
     <div class="btns">
         <button class="reset-btn">RESET</button>
+        <button class="erase-btn">ERASE</button>
         <button class="black-btn">BLACK</button>
         <button class="rgb-btn">RGB</button>
         <div class="color-pick">
             <input type="color" id="color">
             <p>choose a color</p>
-        </div>
-        <div class="slider-pick">
-            <input type="range" min="8" max="64" value ="16" name="grid-slider" id="slider">
-            <p class="slider-value">16</p>
         </div>
     </div>
     <footer>Created by: Saige Parrish <a href="https://github.com/SaigeP07?tab=repositories"><i class="fa-brands fa-github"></i></a></footer>
