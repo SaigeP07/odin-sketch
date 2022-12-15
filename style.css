@@ -188,6 +188,7 @@ footer {
     }
     #color {
         width: 40px;
+        height: 25px;
     }
     .color-pick {
         font-size: 15px;
@@ -230,4 +231,10 @@ a:hover {
     scale: 90%;
     transition: 60ms;
     color: black;
+}
+
+
+.color-pick > p {
+    margin-top: auto;
+    margin-bottom: auto;
 }
