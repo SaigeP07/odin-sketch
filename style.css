@@ -28,7 +28,7 @@ h1 {
     margin-right: auto;
     font-family: 'Dosis', sans-serif;
     font-weight: 300;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 100px;
     
 }
@@ -146,6 +146,7 @@ button:hover {
     color: rgb(255, 255, 255);
     text-shadow: 1.3px 1.3px rgb(0, 0, 0);
     font-weight: bold;
+    font-family: 'Dosis', sans-serif;
 }
 
 footer {
@@ -163,7 +164,7 @@ footer {
     border: solid 5px rgb(255, 255, 255);
     box-shadow: 7px 7px 30px;
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     border-radius: 5px;
     display: inline-grid;
     background-color: rgb(255, 255, 255);
@@ -182,9 +183,9 @@ footer {
         font-size: 1.5em;
     }
     button {
-        font-size: 10px;
-        width: 60px;
-        height: 35px;
+        font-size: 17px;
+        width: 70px;
+        height: 50px;
     }
     #color {
         width: 40px;
@@ -197,7 +198,7 @@ footer {
         height:  20px;
     }
     .slider-pick > p {
-        font-size: 15px;
+        font-size: 20px;
     }
     #slider::-webkit-slider-thumb {
         height: 20px;
@@ -205,6 +206,10 @@ footer {
     }
     .rgb-btn {
         min-width: 42px;
+    }
+
+    .btns {
+        min-width: 360px;
     }
 }
 .cell {
