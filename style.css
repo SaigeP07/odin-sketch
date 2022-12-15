@@ -1,15 +1,16 @@
 body {
     background-color: rgb(255, 77, 77);
-    font-family: 'Rock Salt', cursive;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Pacifico', cursive;
 }
 
 h1 {
     text-align: center;
     font-size: 4em;
-    color: rgb(255, 203, 106);
+    letter-spacing: 8px;
+    color: rgb(255, 255, 255);
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: rgba(0, 0, 0, .2);
@@ -173,7 +174,8 @@ footer {
         height: 300px;
     }
     h1 {
-        font-size: 2em;
+        font-size: 2.3em;
+        letter-spacing: 5px;
     }
     footer {
         font-size: 1.5em;
