@@ -13,6 +13,7 @@ h1 {
     letter-spacing: 8px;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
+    -webkit-text-shadow: 3px 3px 10px rgb(0, 0, 0);
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: rgba(0, 0, 0, .2);
 }
